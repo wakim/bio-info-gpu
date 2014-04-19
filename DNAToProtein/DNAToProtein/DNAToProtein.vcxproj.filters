@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\DNATranslation.cpp" />
+    <ClCompile Include="..\src\classes\source\CudaTimer.cpp" />
+    <ClCompile Include="..\src\classes\source\DNATranslatorImpl.cpp" />
+    <ClCompile Include="..\src\classes\source\DNATranslatorTimed.cpp" />
+    <ClCompile Include="..\src\classes\source\SequenceReader.cpp" />
+    <ClCompile Include="..\src\classes\source\SequenceWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\utils\cuda_utils.h" />
+    <ClInclude Include="..\src\utils\unistd_win.h" />
+    <ClInclude Include="..\src\cuda\kernels.cu.h" />
+    <ClInclude Include="..\src\cuda\shared_memory.cu.h" />
+    <ClInclude Include="..\src\classes\header\CudaTimer.h" />
+    <ClInclude Include="..\src\classes\header\DNATranslator.h" />
+    <ClInclude Include="..\src\classes\header\DNATranslatorImpl.h" />
+    <ClInclude Include="..\src\classes\header\SequenceReader.h" />
+    <ClInclude Include="..\src\classes\header\DNATranslatorTimed.h" />
+    <ClInclude Include="..\src\classes\header\SequenceWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\cuda\kernels.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dummy_sequence.txt" />
+  </ItemGroup>
+</Project>
