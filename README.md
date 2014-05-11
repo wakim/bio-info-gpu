@@ -17,6 +17,7 @@ program_name [path_to_sequence_file] [opt output_type] [opt path_to_output_file]
 Where ouput_type assumes the following values: "compact" or "complete"
 
 In complete output type each amino acid is shown on output with three letters (e.g: 'MET' for Methionine).
+
 While in the compact output type shown just one letter (e.g: 'M' for Methionine).
 
 Example:
