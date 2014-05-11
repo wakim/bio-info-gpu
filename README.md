@@ -20,6 +20,9 @@ In complete output type each amino acid is shown on output with three letters (e
 While in the compact output type shown just one letter (e.g: 'M' for Methionine).
 
 Example:
-Sequence: AAACCCTTTGGG
+
+Input Sequence in file: AAACCCTTTGGG
+
 Using compact output type: KPFG
+
 Using complete output type: LysProPheGly
